@@ -15,9 +15,9 @@ spring:
   #    ddl-auto: update
   #  show-sql: true
 datasource:
-    url: jdbc:postgresql://ep-young-brook-a4jkg7zu-pooler.us-east-1.aws.neon.tech/neondb?user=neondb_owner&password=npg_IT01BDrCNatA&sslmode=require
+    url: jdbc:postgresql://ep-curly-poetry-ac6brwxi-pooler.sa-east-1.aws.neon.tech/neondb?user=neondb_owner&password=npg_UCRv0Wr6zYyk&sslmode=require
     username: neondb_owner
-    password: npg_IT01BDrCNatA
+    password: npg_UCRv0Wr6zYyk
     driver-class-name: org.postgresql.Driver
 
 springdoc:
