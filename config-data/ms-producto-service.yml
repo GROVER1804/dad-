@@ -14,17 +14,11 @@ spring:
   #  hibernate:
   #    ddl-auto: update
   #  show-sql: true
-  datasource:
-    url: jdbc:h2:mem:ms_producto
-    driver-class-name: org.h2.Driver
-    username: sa
-    password: password
-    jpa:
-      database-platform: org.hibernate.dialect.H2Dialect
-    h2:
-      console:
-        enabled: true
-        path: /h2-console
+datasource:
+    url: jdbc:postgresql://ep-young-brook-a4jkg7zu-pooler.us-east-1.aws.neon.tech/neondb?user=neondb_owner&password=npg_IT01BDrCNatA&sslmode=require
+    username: neondb_owner
+    password: npg_IT01BDrCNatA
+    driver-class-name: org.postgresql.Driver
 
 springdoc:
   api-docs:
